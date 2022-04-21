@@ -7,7 +7,7 @@ public class AdactinHotel extends LibraryClass {
 	public static void main(String[] args) throws Exception {
 		AdactinHotel hotel = new AdactinHotel();
 		hotel.chromeBrowserConfig();
-		hotel.getUrl("https://adactinhotelapp.com/");
+		hotel.getUrl("SIVABALA");
 		hotel.maximizeWindow();
 		WebElement id = hotel.locateById("username");
 		hotel.inputText(id, "sivabala");
